@@ -1,6 +1,6 @@
 # Vinícius Santos
 
-Mechanical engineer in production planning and control (PPCP). I automate the manual work around planning with Python, Power BI and SAP.
+Mechanical engineer in production planning and control (PPCP), with a background in application engineering and a strong IT side: I build the scripts, integrations and data models that planning runs on, using Python, SQL, Power BI and SAP.
 
 Day job is production planning at a global manufacturer of material-handling components, on SAP S/4HANA (PP, MM, SD, VC). Most of what I build starts as a spreadsheet someone maintains by hand and ends as a script, a Power BI model or a Power Automate flow nobody has to think about again. Before planning I spent four years in application engineering on conveyor and sortation projects: layout, throughput simulation in Emulate3D, BOM and quotation.
 
