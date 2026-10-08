@@ -6,12 +6,12 @@ Day job is production planning at a global manufacturer of material-handling com
 
 ## Projects
 
-- **[eurolume-career-intelligence](https://github.com/v-santos-eng/eurolume-career-intelligence)** — daily job ingestion, fit scoring and visa-sponsorship gating. FastAPI, Next.js, pgvector, Celery.
-- **[forex-ml-trading](https://github.com/v-santos-eng/forex-ml-trading)** — ML trading stack for MetaTrader 5: validation without leakage, risk management, execution, monitoring.
-- **[quant-fx-research](https://github.com/v-santos-eng/quant-fx-research)** — strategy research with broker-measured costs and a pre-registered validation gate. Mostly negative results, reported as such.
-- **[autotrading-pipeline](https://github.com/v-santos-eng/autotrading-pipeline)** — dataset pipeline with causal features and embargoed walk-forward splits.
-- **[boq-export-consolidator](https://github.com/v-santos-eng/boq-export-consolidator)** — flattens configurator CSV exports into an incremental Excel workbook for Power BI.
-- **[forex-risk-analyzer](https://github.com/v-santos-eng/forex-risk-analyzer)** — position sizing and risk/return analysis with Brazilian tax modelling.
+- **[eurolume-career-intelligence](https://github.com/v-santos-eng/eurolume-career-intelligence)**: daily job ingestion, fit scoring and visa-sponsorship gating. FastAPI, Next.js, pgvector, Celery.
+- **[forex-ml-trading](https://github.com/v-santos-eng/forex-ml-trading)**: ML trading stack for MetaTrader 5: validation without leakage, risk management, execution, monitoring.
+- **[quant-fx-research](https://github.com/v-santos-eng/quant-fx-research)**: strategy research with broker-measured costs and a pre-registered validation gate. Mostly negative results, reported as such.
+- **[autotrading-pipeline](https://github.com/v-santos-eng/autotrading-pipeline)**: dataset pipeline with causal features and embargoed walk-forward splits.
+- **[boq-export-consolidator](https://github.com/v-santos-eng/boq-export-consolidator)**: flattens configurator CSV exports into an incremental Excel workbook for Power BI.
+- **[forex-risk-analyzer](https://github.com/v-santos-eng/forex-risk-analyzer)**: position sizing and risk/return analysis with Brazilian tax modelling.
 
 ## Tools
 
