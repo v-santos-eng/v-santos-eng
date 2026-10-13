@@ -1,0 +1,29 @@
+{
+  "format": "cadrecipe",
+  "version": "0.1",
+  "name": "mounting_plate",
+  "units": "mm",
+  "parameters": {
+    "width": 200,
+    "depth": 120,
+    "thickness": 12,
+    "corner_r": 8,
+    "margin": 20,
+    "pitch_x": "(width - 2*margin) / 2",
+    "pitch_y": "depth - 2*margin",
+    "bore_r": 30
+  },
+  "features": [
+    {"id": "base", "type": "plate", "width": "width", "depth": "depth", "thickness": "thickness",
+     "corners": {"type": "fillet", "size": "corner_r"}},
+    {"id": "fixing", "type": "hole", "spec": {"kind": "clearance", "size": "M8", "fit": "medium"},
+     "depth": "through",
+     "at": {"grid": {"origin": ["margin", "margin"], "count": [3, 2], "pitch": ["pitch_x", "pitch_y"]}}},
+    {"id": "motor", "type": "hole", "spec": {"kind": "tapped", "size": "M6"}, "depth": 10,
+     "at": {"circle": {"center": ["width/2", "depth/2"], "radius": "bore_r", "count": 4, "start_angle": 45}}},
+    {"id": "window", "type": "pocket", "center": ["width/2", "depth/2"], "size": [30, 30],
+     "corner_radius": 5, "depth": "through"},
+    {"id": "adjust", "type": "slot", "center": ["width - 25", "depth/2"], "length": 30, "width": 9,
+     "angle": 90, "depth": "through"}
+  ]
+}
