@@ -6,6 +6,7 @@ Day job is production planning at a global manufacturer of material-handling com
 
 ## Projects
 
+- **[unstep](https://github.com/v-santos-eng/unstep)**: turns dead STEP files back into parametric parts. Recovers design intent (named dimensions, standard holes, hole patterns, symmetry) into an open recipe format and rebuilds it with native features in Inventor. Python, OpenCascade.
 - **[eurolume-career-intelligence](https://github.com/v-santos-eng/eurolume-career-intelligence)**: daily job ingestion, fit scoring and visa-sponsorship gating. FastAPI, Next.js, pgvector, Celery.
 - **[forex-ml-trading](https://github.com/v-santos-eng/forex-ml-trading)**: ML trading stack for MetaTrader 5: validation without leakage, risk management, execution, monitoring.
 - **[quant-fx-research](https://github.com/v-santos-eng/quant-fx-research)**: strategy research with broker-measured costs and a pre-registered validation gate. Mostly negative results, reported as such.
